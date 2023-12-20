@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+.TemperatureTitle{
+    text-align:  center;
+    color: white;
+    margin-top: 50px;
+    font-family:'SF Pro Display', sans-serif;
+    font-size: 45px;
+
+}
+
+.graphic {
+    width: 110vh;
+  }
+
+.containerFather{
+    width: 100%;
+}
+.containerGraphic{
+    width:60%;
+    margin:0 auto;
+    margin-top: 25px;
+}
+.containerText{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.temperatureText{
+    color:rgba(255, 255, 255, 0.8);
+    font-family:'SF Pro Display', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.containerbutton{
+    width: 100%;
+}
+
+@media only screen and (max-width:480px){
+    .containerGraphic{
+        height: 300px;
+        width: 96%;
+    }
+}

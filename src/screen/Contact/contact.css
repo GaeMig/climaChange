@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.grid-container-contact {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+
+  .gridContact{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+
+  
+  .grid-item-contact-text{
+    width: 50%;
+    height: 400px;
+  }
+  .grid-item-contact-form{
+    width: 50%;
+    height: 400px;
+
+  }
+
+  .titleText{
+    color: white;
+    padding: 25px;
+    font-family:'SF Pro Display', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+
+  }
+
+  .textForm{
+    color: white;
+    opacity: 0.7;
+    padding: 25px;
+    font-size: 20px;
+    font-family:'SF Pro Display', sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .icon{
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .iconSocial{
+    margin:5%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+
+
+/*--------------Form-------------*/
+  
+form {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-family:'SF Pro Display', sans-serif;
+  text-align: start;
+  margin-left: 10%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+input[type="submit"] {
+  background-color: #2968EA;
+  opacity: 0.8;
+  color: #fff;
+  cursor: pointer;
+  width: 25%;
+  height: 40px;
+}
+
+input[type="submit"]:hover {
+  background-color: #2968EA;
+  opacity: 1;
+}
+
+.containerEmpty{
+  width: 100%;
+  height: 140px;
+}
+
+/*--------mediaQ--------*/
+
+@media screen and (max-width:600px){
+  .gridContact{flex-direction: column;}
+  .gridContact{margin-top: 50px;}
+  .grid-item-contact-text{width: 100%;}
+  .grid-item-contact-form{width: 100%;}
+  .titleText{margin-left:10%; font-size: 30px;}
+  .textForm{margin-left: 10%;}
+}

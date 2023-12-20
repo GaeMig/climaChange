@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+
+.containerHome{
+    width: 100%;
+    margin-top: 130px;
+    height: 600px;
+}
+
+
+.container{
+    float: left;
+    display:block;
+    width: 40%;
+    height: 400px;
+    background-color: transparent;
+    text-align: left;
+    margin-top: 70px;
+
+}
+.container1{
+    float: left;
+    display: block;
+    width: 60%;
+    height: 400px;
+    background-color: transparent;
+    text-align: right;
+    opacity: 0.7;
+}
+
+.element{
+    animation: 
+    pulse 5s ease  alternate, 
+    nudge 5s linear  alternate;
+}
+
+@keyframes pulse{
+    0%{
+        transform: translate(400px);
+    }
+  
+    100%{
+        transform: translate(0);
+    }
+}
+
+.title{
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 75px;
+    margin-left: 70px;
+}
+
+.textHome{
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.textLink{
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.buttonLink{
+    margin-left: 70px;    
+    margin-top: 15px;
+    padding: 10px;
+    background-color:#2968EA;
+    opacity: 0.8;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    width: 100px;
+    box-shadow: 2.5px 5px rgba(0, 0, 0,0.5);
+}
+
+.buttonLink:hover{
+    opacity: 1;
+    transition: 0.4s;
+    margin-bottom: -2px;
+}
+
+span{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+}
+
+.imagine{
+    height: 600px;
+    margin-top: -100px;
+    
+}
+
+/*----------mediaQ----------*/
+
+@media screen and (max-width:600px){
+.container1{display: none;}
+.containerHome{margin-top: -50px;}
+.container{width: 100%;}
+.title{margin-left: auto;text-align: center;}
+.textHome{margin-left: auto;text-align: center;padding-left: 5%;padding-right: 5%;}
+.textLink{margin-left: auto; text-align: center;padding-left:5%; padding-right: 5%;}
+.buttonLink{margin-left:35%;}
+}

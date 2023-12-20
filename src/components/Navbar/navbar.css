@@ -1,0 +1,22 @@
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.nav{
+ 
+  width: 100%;
+  background-color:transparent;
+}
+
+.linkComponent{
+  font-family: 'SF Pro Display', sans-serif;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  margin-top: 25px;
+  position: relative;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  text-align: center;  
+}
+
